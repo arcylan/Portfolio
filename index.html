@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="nav_bar">
+            <ul class="nav-links">
+                <li ><a href="#home">Home</a></li>
+                <li ><a href="#about">About Me</a></li>
+                <li ><a href="#projects">Projects</a></li>
+                <li ><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1 id="home1">Welcome to My Portfolio</h1>
+        <div class="scrolling-text">
+        <p><b>Hello! I'm a passionate Computer Science Student.</b></p>
+        </div >
+        <!-- Photo or animation -->
+        <img src="profile-photo.jpg" alt="My Photo" class="profile-photo">
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2 id="about1">About Me</h2>
+        <div id="aboutme">
+        <p>
+            Hi there! I’m ARCYLAN REYAZ, a storyteller at heart, weaving narratives through the digital canvas. My journey is fueled by curiosity, creativity, and a constant drive to turn <br>ideas into reality.
+
+From the serene valleys of Kashmir, India, I draw inspiration from the world around me—its colors, patterns, and endless possibilities. Life, to me, is an <br>adventure of connections, discoveries, and moments that shape who we are.
+
+Feel free to explore my portfolio, where each project reflects a little piece of my story. Let’s <br> create something amazing together!
+        </p>
+        </div>
+        <h3 id="Skills">Skills</h3>
+        <div class="skillss">
+            <li>HTML, CSS, JavaScript</li>
+            <li>Python, Java, C++</li>
+            <li>SQL(RDBMS)</li>
+            <li>Linux</li>
+            <li>VS CODE(Tool)</li>
+
+        </div>
+
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 id="project">My Projects</h2>
+        <div class="projects-container">
+            <!-- Example Project Card -->
+            <div class="project-card">
+                <img src="project spotify clone.png" alt="Project Screenshot">
+                <h3>Spotify Clone</h3>
+                <p>The Spotify Clone is a frontend-focused music streaming interface designed to mimic the look and feel of Spotify. Built using HTML, CSS, and JavaScript, it features a responsive layout, stylish design, and interactive elements such as a music player, navigation menu, and song listings..</p>
+                <a href="#">Live Demo</a> | <a href="https://github.com/arcylan/Spotify-Clone">Code</a>
+            </div>
+            <div class="project-card">
+                <img src="Student management.png" alt="Project Screenshot">
+                <h3>Student Management System</h3>
+                <p>A simple Project Created With Python And SQLite3 in Which We Can Add, Delete, Update etc.</p>
+                <a href="#">Live Demo</a> | <a href="https://github.com/arcylan/Spotify-Clone.git">Code</a>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+        <p id="thank-you" style="display: none;">Thank you for your message!</p>
+    </section>
+
+    <!-- Link to the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

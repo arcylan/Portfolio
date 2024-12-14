@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+#home1{
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.profile-photo {
+    width: 250px;
+    height: 250px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 2px solid brown; 
+  }
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.scrolling-text {
+    color: goldenrod;
+
+  }
+
+.nav_bar {
+    background-color: #333; 
+    padding: 10px 20px;
+  }
+  
+  .nav-links {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; 
+  }
+  
+  .nav-links li {
+    margin: 0 10px; 
+  }
+  
+  .nav-links a {
+    text-decoration: none; 
+    color: white; 
+    padding: 10px 15px; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    border-radius: 5px; 
+  }
+  
+  
+  .nav-links a:hover {
+    background-color: #f4a261; 
+    color: #333;
+  }
+  #about1{
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+  #aboutme{
+    color: goldenrod;
+  }
+  h3{
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    
+  }
+  .skillss{
+    color:goldenrod ;
+  }
+  #project{
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+  
+  
+ 
+  
+  
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: left;
+}
+
+.project-card img {
+    max-width: 100%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
